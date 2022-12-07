@@ -39,10 +39,7 @@ class AssassinManager{
         }
     }
 
-    // prints elements in graveyard. The function printKillRing and printGraveyard cannot
-    // be shorthened with a common function since (1) they both iterate with different 
-    // while loop conditions, (2) they are printing different objects and (3) these objects are
-    // at different areas of the linked list. It would thus make the function more complicated
+    // prints elements in graveyard. 
     public void printGraveyard(){
         AssassinNode current = headGraveyard;
         while (current!=null){
